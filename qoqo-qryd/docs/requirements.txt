@@ -1,4 +1,4 @@
-qoqo==1.1.0-beta.9
+qoqo==1.1.0-beta.10
 numpy
 sphinx >= 2.1
 nbsphinx

@@ -32,9 +32,9 @@ numpy = "0.17"
 
 qoqo_calculator_pyo3 = {version="1.1", default-features=false}
 
-qoqo = {git = "https://github.com/HQSquantumsimulations/qoqo", branch = "main", version="1.1.0-beta.9", default-features=false}
+qoqo = {version="1.1.0-beta.10", default-features=false}
 
-roqoqo = {git = "https://github.com/HQSquantumsimulations/qoqo", branch = "main", version="1.1.0-beta.9", features = ["serialize"]}
+roqoqo = {version="1.1.0-beta.10", features = ["serialize"]}
 
 ndarray = "0.15"
 roqoqo-qryd = {version="0.6.0-beta.2", path="../roqoqo-qryd", default-features=false, features = ["serialize"]}
