@@ -513,22 +513,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "nalgebra"
-version = "0.31.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9e0a04ce089f9401aac565c740ed30c46291260f27d4911fdbaa6ca65fa3044"
-dependencies = [
- "approx",
- "matrixmultiply",
- "nalgebra-macros",
- "num-complex",
- "num-rational",
- "num-traits",
- "simba",
- "typenum",
-]
-
-[[package]]
 name = "nalgebra-macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1075,7 +1059,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6268668bc0f10ef445df16b34acb2c23a99d2a224bd246f7cbaa8a75fb68d44f"
 dependencies = [
  "bincode",
- "nalgebra 0.30.1",
+ "nalgebra",
  "ndarray",
  "num-complex",
  "petgraph",
@@ -1140,11 +1124,11 @@ dependencies = [
 
 [[package]]
 name = "roqoqo-test"
-version = "1.1.0-beta.10"
+version = "1.1.0-beta.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf75815a9bb090e4631be9e254f11dc174f970b4dcd8b52dd502ef00058917be"
+checksum = "3e0435bf1a0f9ccae3e66fabc98e089aa829616657d91ecaff026853281cb782"
 dependencies = [
- "nalgebra 0.31.1",
+ "nalgebra",
  "ndarray",
  "proc-macro2",
  "qoqo_calculator",
