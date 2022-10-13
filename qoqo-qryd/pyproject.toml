@@ -1,6 +1,6 @@
 [project]
 name = "qoqo_qryd"
-version = "0.6.0-beta.2"
+version = "0.6.0-beta.3"
 dependencies = [
   'numpy',
   'qoqo>=1.1.0b11',
@@ -17,6 +17,6 @@ build-backend = "maturin"
 [tool.maturin]
 bindings = "pyo3"
 compatibility = "manylinux2014"
-skip-auditwheel = false
+skip-auditwheel = true
 strip = true
 profile = "release"
