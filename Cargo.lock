@@ -498,6 +498,22 @@ dependencies = [
 
 [[package]]
 name = "nalgebra"
+version = "0.30.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4fb2d0de08694bed883320212c18ee3008576bfe8c306f4c3c4a58b4876998be"
+dependencies = [
+ "approx",
+ "matrixmultiply",
+ "nalgebra-macros",
+ "num-complex",
+ "num-rational",
+ "num-traits",
+ "simba",
+ "typenum",
+]
+
+[[package]]
+name = "nalgebra"
 version = "0.31.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e9e0a04ce089f9401aac565c740ed30c46291260f27d4911fdbaa6ca65fa3044"
@@ -849,8 +865,9 @@ dependencies = [
 
 [[package]]
 name = "qoqo"
-version = "1.1.0-beta.10"
-source = "git+https://github.com/HQSquantumsimulations/qoqo?branch=main#7c5a4610b9eaa614cabd85223bf77f475053ac35"
+version = "1.1.0-beta.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f9b523e746fa06ef0fb5bbf8fdba04ec93cb35e5e5d45440ae6234f8e5f34158"
 dependencies = [
  "bincode",
  "ndarray",
@@ -863,7 +880,7 @@ dependencies = [
  "qoqo_calculator",
  "qoqo_calculator_pyo3",
  "quote",
- "roqoqo 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
+ "roqoqo",
  "serde",
  "serde_json",
  "syn",
@@ -872,8 +889,9 @@ dependencies = [
 
 [[package]]
 name = "qoqo-macros"
-version = "1.1.0-beta.10"
-source = "git+https://github.com/HQSquantumsimulations/qoqo?branch=main#7c5a4610b9eaa614cabd85223bf77f475053ac35"
+version = "1.1.0-beta.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c81a1f1e76394e32b74f1224c42a344ceb2edbcd03326f3c64f75edf07a4eed0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -892,8 +910,8 @@ dependencies = [
  "qoqo",
  "qoqo_calculator",
  "qoqo_calculator_pyo3",
- "roqoqo 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
- "roqoqo-derive 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
+ "roqoqo",
+ "roqoqo-derive",
  "roqoqo-qryd",
  "serde",
  "serde_json",
@@ -927,7 +945,9 @@ dependencies = [
 
 [[package]]
 name = "quest-sys"
-version = "0.8.0-alpha.1"
+version = "0.8.0-beta.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dd806d98cc85d0e6f057ef05e89def3b25652b9ce8487ef23afbaabf0cf961bb"
 dependencies = [
  "cmake",
 ]
@@ -1050,32 +1070,12 @@ dependencies = [
 
 [[package]]
 name = "roqoqo"
-version = "1.1.0-beta.10"
+version = "1.1.0-beta.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "36460e9b3ba7bf3994e3aaf9eeafd2b9b54d84ba9edd934f8467f98642d2c13b"
+checksum = "6268668bc0f10ef445df16b34acb2c23a99d2a224bd246f7cbaa8a75fb68d44f"
 dependencies = [
  "bincode",
- "nalgebra",
- "ndarray",
- "num-complex",
- "petgraph",
- "proc-macro2",
- "qoqo_calculator",
- "quote",
- "rand",
- "roqoqo-derive 1.1.0-beta.10 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde",
- "syn",
- "thiserror",
-]
-
-[[package]]
-name = "roqoqo"
-version = "1.1.0-beta.10"
-source = "git+https://github.com/HQSquantumsimulations/qoqo?branch=main#7c5a4610b9eaa614cabd85223bf77f475053ac35"
-dependencies = [
- "bincode",
- "nalgebra",
+ "nalgebra 0.30.1",
  "ndarray",
  "num-complex",
  "petgraph",
@@ -1084,7 +1084,7 @@ dependencies = [
  "quote",
  "rand",
  "rand_distr",
- "roqoqo-derive 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
+ "roqoqo-derive",
  "serde",
  "syn",
  "thiserror",
@@ -1092,19 +1092,9 @@ dependencies = [
 
 [[package]]
 name = "roqoqo-derive"
-version = "1.1.0-beta.10"
+version = "1.1.0-beta.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d8aab98b45fb31511fc2f37324deb4ea36fa85d95375f419f3854f09c7a7d57"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "roqoqo-derive"
-version = "1.1.0-beta.10"
-source = "git+https://github.com/HQSquantumsimulations/qoqo?branch=main#7c5a4610b9eaa614cabd85223bf77f475053ac35"
+checksum = "c02d8e1a37848594ab223c21e5431c2d527f6f8cb0ef67c9daa3ddf6d9aea6e8"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1123,8 +1113,8 @@ dependencies = [
  "num-complex",
  "qoqo_calculator",
  "reqwest",
- "roqoqo 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
- "roqoqo-derive 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
+ "roqoqo",
+ "roqoqo-derive",
  "roqoqo-quest",
  "roqoqo-test",
  "serde",
@@ -1135,14 +1125,16 @@ dependencies = [
 
 [[package]]
 name = "roqoqo-quest"
-version = "0.8.0-beta.2"
+version = "0.8.0-beta.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "108fb09183c1330d7a272ea3c2b7d590d9c06a48ce97aa1fe020b9e5a80ead2e"
 dependencies = [
  "ndarray",
  "num-complex",
  "qoqo_calculator",
  "quest-sys",
  "rand",
- "roqoqo 1.1.0-beta.10 (git+https://github.com/HQSquantumsimulations/qoqo?branch=main)",
+ "roqoqo",
  "serde",
 ]
 
@@ -1152,13 +1144,13 @@ version = "1.1.0-beta.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bf75815a9bb090e4631be9e254f11dc174f970b4dcd8b52dd502ef00058917be"
 dependencies = [
- "nalgebra",
+ "nalgebra 0.31.1",
  "ndarray",
  "proc-macro2",
  "qoqo_calculator",
  "quote",
  "rand",
- "roqoqo 1.1.0-beta.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "roqoqo",
  "syn",
 ]
 
