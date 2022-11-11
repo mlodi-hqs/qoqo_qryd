@@ -865,9 +865,8 @@ dependencies = [
 
 [[package]]
 name = "qoqo"
-version = "1.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f81c6d93af7a5e3298688a23888a796145dd48e99a25551c037a9cf0e0f825cc"
+version = "1.2.0-alpha.1"
+source = "git+https://github.com/mlodi-hqs/qoqo#15b9bbad8a7d322f20803facc302ae13d682c0f8"
 dependencies = [
  "bincode",
  "ndarray",
@@ -880,7 +879,7 @@ dependencies = [
  "qoqo_calculator",
  "qoqo_calculator_pyo3",
  "quote",
- "roqoqo 1.1.0",
+ "roqoqo 1.2.0-alpha.1",
  "serde",
  "serde_json",
  "syn",
@@ -889,9 +888,8 @@ dependencies = [
 
 [[package]]
 name = "qoqo-macros"
-version = "1.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2855d8d13fc9d31fd416064a8cf9ac96cf6f4ad6c70a43f01f6bc4473c510f5c"
+version = "1.2.0-alpha.1"
+source = "git+https://github.com/mlodi-hqs/qoqo#15b9bbad8a7d322f20803facc302ae13d682c0f8"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -910,7 +908,7 @@ dependencies = [
  "qoqo",
  "qoqo_calculator",
  "qoqo_calculator_pyo3",
- "roqoqo 1.1.0",
+ "roqoqo 1.2.0-alpha.1",
  "roqoqo-qryd",
  "serde",
  "serde_json",
@@ -944,9 +942,8 @@ dependencies = [
 
 [[package]]
 name = "quest-sys"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fdb133957301451957d7e141376bf21ac812fe254329d09bd790d604f1cb27ec"
+version = "0.9.0-alpha.2"
+source = "git+https://github.com/mlodi-hqs/qoqo-quest?branch=qoqo_1.2.0a1#95ce8ac4f83678f2ba6c7ac70192b9cd5a74357c"
 dependencies = [
  "cmake",
 ]
@@ -1101,8 +1098,28 @@ dependencies = [
  "qoqo_calculator",
  "quote",
  "rand",
- "rand_distr",
  "roqoqo-derive 1.1.0",
+ "serde",
+ "syn",
+ "thiserror",
+]
+
+[[package]]
+name = "roqoqo"
+version = "1.2.0-alpha.1"
+source = "git+https://github.com/mlodi-hqs/qoqo#15b9bbad8a7d322f20803facc302ae13d682c0f8"
+dependencies = [
+ "bincode",
+ "nalgebra 0.31.2",
+ "ndarray",
+ "num-complex",
+ "petgraph",
+ "proc-macro2",
+ "qoqo_calculator",
+ "quote",
+ "rand",
+ "rand_distr",
+ "roqoqo-derive 1.2.0-alpha.1",
  "serde",
  "syn",
  "thiserror",
@@ -1130,6 +1147,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "roqoqo-derive"
+version = "1.2.0-alpha.1"
+source = "git+https://github.com/mlodi-hqs/qoqo#15b9bbad8a7d322f20803facc302ae13d682c0f8"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "roqoqo-qryd"
 version = "0.6.0"
 dependencies = [
@@ -1142,7 +1169,7 @@ dependencies = [
  "qoqo_calculator",
  "reqwest",
  "roqoqo 1.0.0",
- "roqoqo 1.1.0",
+ "roqoqo 1.2.0-alpha.1",
  "roqoqo-derive 1.1.0",
  "roqoqo-quest",
  "roqoqo-test",
@@ -1154,16 +1181,15 @@ dependencies = [
 
 [[package]]
 name = "roqoqo-quest"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6995066897ab7629ed390528672ef389f686cd32b93d64b0c254cc53e54128fe"
+version = "0.9.0-alpha.2"
+source = "git+https://github.com/mlodi-hqs/qoqo-quest?branch=qoqo_1.2.0a1#95ce8ac4f83678f2ba6c7ac70192b9cd5a74357c"
 dependencies = [
  "ndarray",
  "num-complex",
  "qoqo_calculator",
  "quest-sys",
  "rand",
- "roqoqo 1.1.0",
+ "roqoqo 1.2.0-alpha.1",
  "serde",
 ]
 
