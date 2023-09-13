@@ -7,7 +7,8 @@ Tracks qoqo-qryd changes after 0.5
 * Substituted `httpmock` with `mockito` in mock testing
 * Reduced the number of usecases that need openssl
 * ExperimentalDevice renamed to TweezerDevice
-* `add_qubit_tweezer_mapping()` returns the new mapping
+* `TweezerDevice.add_qubit_tweezer_mapping()` returns the new mapping
+* Added `TweezerDevice.set_allowed_tweezer_shifts()`
 * Added `PragmaShiftQubitsTweezers`
 
 # 0.10.0
