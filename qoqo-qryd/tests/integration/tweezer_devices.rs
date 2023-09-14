@@ -529,6 +529,9 @@ fn test_to_from_json() {
                 ("ControlledControlledPhaseShift", 0, 1, 2, 0.13),
             )
             .unwrap();
+        device_mut
+            .call_method1("set_allowed_tweezer_shifts", (0, vec![vec![1]]))
+            .unwrap();
 
         let serialised = device.call_method0("to_json").unwrap();
         let serialised_mut = device_mut.call_method0("to_json").unwrap();
@@ -573,6 +576,25 @@ fn test_to_from_bincode() {
         let device_type_mut = py.get_type::<TweezerMutableDeviceWrapper>();
         let device = device_type.call0().unwrap();
         let device_mut = device_type_mut.call0().unwrap();
+
+        device_mut
+            .call_method1("set_tweezer_single_qubit_gate_time", ("RotateZ", 0, 0.23))
+            .unwrap();
+        device_mut
+            .call_method1(
+                "set_tweezer_two_qubit_gate_time",
+                ("PhaseShiftedControlledPhase", 0, 1, 0.13),
+            )
+            .unwrap();
+        device_mut
+            .call_method1(
+                "set_tweezer_three_qubit_gate_time",
+                ("ControlledControlledPhaseShift", 0, 1, 2, 0.13),
+            )
+            .unwrap();
+        device_mut
+            .call_method1("set_allowed_tweezer_shifts", (0, vec![vec![1]]))
+            .unwrap();
 
         let serialised = device.call_method0("to_bincode").unwrap();
         let serialised_mut = device_mut.call_method0("to_bincode").unwrap();
