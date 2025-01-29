@@ -594,7 +594,7 @@ SOFTWARE.
 
 
 ====================================================
-anyhow 1.0.94
+anyhow 1.0.95
 https://github.com/dtolnay/anyhow
 by David Tolnay <dtolnay@gmail.com>
 Flexible concrete Error type built on std::error::Error
@@ -1592,7 +1592,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ====================================================
-async-trait 0.1.83
+async-trait 0.1.85
 https://github.com/dtolnay/async-trait
 by David Tolnay <dtolnay@gmail.com>
 Type erasure for async trait methods
@@ -4600,7 +4600,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-bitflags 2.6.0
+bitflags 2.8.0
 https://github.com/bitflags/bitflags
 by The Rust Project Developers
 A macro to generate structures which behave like bitflags.
@@ -5147,7 +5147,7 @@ SOFTWARE.
 
 
 ====================================================
-bumpalo 3.16.0
+bumpalo 3.17.0
 https://github.com/fitzgen/bumpalo
 by Nick Fitzgerald <fitzgen@gmail.com>
 A fast bump allocation arena for Rust.
@@ -5629,7 +5629,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-bytemuck 1.20.0
+bytemuck 1.21.0
 https://github.com/Lokathor/bytemuck
 by Lokathor <zefria@gmail.com>
 A crate for mucking around with piles of bytes.
@@ -5892,7 +5892,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-cc 1.2.4
+cc 1.2.10
 https://github.com/rust-lang/cc-rs
 by Alex Crichton <alex@alexcrichton.com>
 A build-time dependency for Cargo build scripts to assist in invoking the native
@@ -9085,10 +9085,36 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-crunchy 0.2.2
-by Vurich <jackefransham@hotmail.co.uk>
+crunchy 0.2.3
+https://github.com/eira-fransham/crunchy
+by Eira Fransham <jackefransham@gmail.com>
 Crunchy unroller: deterministically unroll constant loops
 License: MIT
+----------------------------------------------------
+LICENSE:
+
+The MIT License (MIT)
+
+Copyright 2017-2023 Eira Fransham.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 ====================================================
 csv 1.3.1
@@ -19277,7 +19303,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-httparse 1.9.5
+httparse 1.10.0
 https://github.com/seanmonstar/httparse
 by Sean McArthur <sean@seanmonstar.com>
 A tiny, safe, speedy, zero-copy HTTP/1.x parser.
@@ -19490,7 +19516,7 @@ limitations under the License.
 ----------------------------------------------------
 LICENSE-MIT:
 
-Copyright (c) 2015-2024 Sean McArthur
+Copyright (c) 2015-2025 Sean McArthur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19748,7 +19774,7 @@ THE SOFTWARE.
 
 
 ====================================================
-hyper 1.5.2
+hyper 1.6.0
 https://hyper.rs
 by Sean McArthur <sean@seanmonstar.com>
 A protective and efficient HTTP library for all.
@@ -19756,7 +19782,7 @@ License: MIT
 ----------------------------------------------------
 LICENSE:
 
-Copyright (c) 2014-2021 Sean McArthur
+Copyright (c) 2014-2025 Sean McArthur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19778,7 +19804,7 @@ THE SOFTWARE.
 
 
 ====================================================
-hyper-rustls 0.27.4
+hyper-rustls 0.27.5
 https://github.com/rustls/hyper-rustls
 by 
 Rustls+hyper integration for pure rust HTTPS
@@ -22247,7 +22273,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-image-webp 0.2.0
+image-webp 0.2.1
 https://github.com/image-rs/image-webp
 by 
 WebP encoding and decoding in pure Rust
@@ -22833,7 +22859,7 @@ express Statement of Purpose.
 
 
 ====================================================
-indexmap 2.7.0
+indexmap 2.7.1
 https://github.com/indexmap-rs/indexmap
 by 
 A hash table with consistent order and fast iteration.
@@ -23551,7 +23577,7 @@ SOFTWARE.
 
 
 ====================================================
-inventory 0.3.15
+inventory 0.3.17
 https://github.com/dtolnay/inventory
 by David Tolnay <dtolnay@gmail.com>
 Typed distributed plugin registration
@@ -23765,7 +23791,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-ipnet 2.10.1
+ipnet 2.11.0
 https://github.com/krisprice/ipnet
 by Kris Price <kris@krisprice.nz>
 Provides types and useful methods for working with IPv4 and IPv6 network addresses, commonly called IP prefixes. The new `IpNet`, `Ipv4Net`, and `Ipv6Net` types build on the existing `IpAddr`, `Ipv4Addr`, and `Ipv6Addr` types already provided in Rust's standard library and align to their design to stay consistent. The module also provides useful traits that extend `Ipv4Addr` and `Ipv6Addr` with methods for `Add`, `Sub`, `BitAnd`, and `BitOr` operations. The module only uses stable feature so it is guaranteed to compile using the stable toolchain.
@@ -25404,7 +25430,7 @@ SOFTWARE.
 
 
 ====================================================
-js-sys 0.3.76
+js-sys 0.3.77
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Bindings for all JS global objects and functions in all JS environments like
@@ -25933,7 +25959,7 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ====================================================
-libc 0.2.168
+libc 0.2.169
 https://github.com/rust-lang/libc
 by The Rust Project Developers
 Raw FFI bindings to platform libraries like libc.
@@ -26150,11 +26176,11 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-libfuzzer-sys 0.4.8
+libfuzzer-sys 0.4.9
 https://github.com/rust-fuzz/libfuzzer
 by The rust-fuzz Project Developers
 A wrapper around LLVM's libFuzzer runtime.
-License: MIT/Apache-2.0/NCSA
+License: (MIT OR Apache-2.0) AND NCSA
 ----------------------------------------------------
 LICENSE-APACHE:
 
@@ -26933,7 +26959,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-linux-raw-sys 0.4.14
+linux-raw-sys 0.4.15
 https://github.com/sunfishcode/linux-raw-sys
 by Dan Gohman <dev@sunfishcode.online>
 Generated bindings for Linux's userspace API
@@ -27732,7 +27758,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-log 0.4.22
+log 0.4.25
 https://github.com/rust-lang/log
 by The Rust Project Developers
 A lightweight logging facade for Rust
@@ -28883,9 +28909,9 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-miniz_oxide 0.8.2
+miniz_oxide 0.8.3
 https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
-by Frommi <daniil.liferenko@gmail.com>, oyvindln <oyvindln@users.noreply.github.com>
+by Frommi <daniil.liferenko@gmail.com>, oyvindln <oyvindln@users.noreply.github.com>, Rich Geldreich richgel99@gmail.com
 DEFLATE compression and decompression library rewritten in Rust based on miniz
 License: MIT OR Zlib OR Apache-2.0
 ----------------------------------------------------
@@ -29074,7 +29100,11 @@ LICENSE:
 
 MIT License
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29097,7 +29127,10 @@ SOFTWARE.
 ----------------------------------------------------
 LICENSE-ZLIB.md:
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2020 Frommi
+Copyright (c) 2017-2024 oyvindln
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
@@ -29114,7 +29147,10 @@ LICENSE-MIT.md:
 
 MIT License
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31702,7 +31738,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ====================================================
-object 0.36.5
+object 0.36.7
 https://github.com/gimli-rs/object
 by 
 A unified interface for reading and writing object file formats.
@@ -33836,7 +33872,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf 0.11.2
+phf 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Runtime support for perfect hash function data structures
@@ -33867,7 +33903,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf_generator 0.11.2
+phf_generator 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 PHF generation logic
@@ -33898,14 +33934,38 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf_macros 0.11.2
+phf_macros 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Macros to generate types in the phf crate
 License: MIT
+----------------------------------------------------
+LICENSE:
+
+The MIT License (MIT)
+
+Copyright (c) 2014-2022 Steven Fackler, Yuki Okushi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ====================================================
-phf_shared 0.11.2
+phf_shared 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Support code shared by PHF libraries
@@ -33967,7 +34027,7 @@ THE SOFTWARE.
 
 
 ====================================================
-pin-project-lite 0.2.15
+pin-project-lite 0.2.16
 https://github.com/taiki-e/pin-project-lite
 by 
 A lightweight version of pin-project written with declarative macros.
@@ -34986,7 +35046,7 @@ A rusty plist parser. Supports Serde serialization.
 License: MIT
 
 ====================================================
-png 0.17.15
+png 0.17.16
 https://github.com/image-rs/image-png
 by The image-rs Developers
 PNG decoding and encoding library in pure Rust
@@ -35930,7 +35990,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-proc-macro2 1.0.92
+proc-macro2 1.0.93
 https://github.com/dtolnay/proc-macro2
 by David Tolnay <dtolnay@gmail.com>, Alex Crichton <alex@alexcrichton.com>
 A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.
@@ -40091,7 +40151,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ====================================================
-quote 1.0.37
+quote 1.0.38
 https://github.com/dtolnay/quote
 by David Tolnay <dtolnay@gmail.com>
 Quasi-quoting macro quote!(...)
@@ -42816,7 +42876,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-reqwest 0.12.9
+reqwest 0.12.12
 https://github.com/seanmonstar/reqwest
 by Sean McArthur <sean@seanmonstar.com>
 higher level HTTP client library
@@ -45676,7 +45736,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 ====================================================
-rustix 0.38.42
+rustix 0.38.44
 https://github.com/bytecodealliance/rustix
 by Dan Gohman <dev@sunfishcode.online>, Jakub Konka <kubkon@jakubkonka.com>
 Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls
@@ -46139,7 +46199,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-rustls 0.23.20
+rustls 0.23.21
 https://github.com/rustls/rustls
 by 
 Rustls is a modern TLS library written in Rust.
@@ -46673,7 +46733,7 @@ of these licenses, at your option.
 
 
 ====================================================
-rustls-pki-types 1.10.1
+rustls-pki-types 1.11.0
 https://github.com/rustls/pki-types
 by 
 Shared types for the rustls PKI ecosystem
@@ -46944,7 +47004,7 @@ third-party/chromium/LICENSE.
 
 
 ====================================================
-rustversion 1.0.18
+rustversion 1.0.19
 https://github.com/dtolnay/rustversion
 by David Tolnay <dtolnay@gmail.com>
 Conditional compilation according to rustc compiler version
@@ -47191,7 +47251,7 @@ SOFTWARE.
 
 
 ====================================================
-ryu 1.0.18
+ryu 1.0.19
 https://github.com/dtolnay/ryu
 by David Tolnay <dtolnay@gmail.com>
 Fast floating point to string conversion
@@ -47405,7 +47465,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-safe_arch 0.7.2
+safe_arch 0.7.4
 https://github.com/Lokathor/safe_arch
 by Lokathor <zefria@gmail.com>
 Crate that exposes `core::arch` safely via `#[cfg()]`.
@@ -47883,7 +47943,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde 1.0.216
+serde 1.0.217
 https://serde.rs
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 A generic serialization/deserialization framework
@@ -48097,7 +48157,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde_derive 1.0.216
+serde_derive 1.0.217
 https://serde.rs
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 Macros 1.1 implementation of #[derive(Serialize, Deserialize)]
@@ -48525,7 +48585,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde_json 1.0.133
+serde_json 1.0.138
 https://github.com/serde-rs/json
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 A JSON serialization file format
@@ -49919,11 +49979,11 @@ Helpers to write more compact simd code
 License: MIT
 
 ====================================================
-simplecss 0.2.1
-https://github.com/RazrFalcon/simplecss
-by Reizner Evgeniy <razrfalcon@gmail.com>
+simplecss 0.2.2
+https://github.com/linebender/simplecss
+by 
 A simple CSS 2 parser and selector.
-License: MIT/Apache-2.0
+License: Apache-2.0 OR MIT
 ----------------------------------------------------
 LICENSE-APACHE:
 
@@ -52266,7 +52326,7 @@ THE SOFTWARE.
 
 
 ====================================================
-syn 2.0.90
+syn 2.0.96
 https://github.com/dtolnay/syn
 by David Tolnay <dtolnay@gmail.com>
 Parser for Rust source code
@@ -53775,7 +53835,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-thiserror 2.0.8
+thiserror 2.0.11
 https://github.com/dtolnay/thiserror
 by David Tolnay <dtolnay@gmail.com>
 derive(Error)
@@ -54203,7 +54263,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-thiserror-impl 2.0.8
+thiserror-impl 2.0.11
 https://github.com/dtolnay/thiserror
 by David Tolnay <dtolnay@gmail.com>
 Implementation detail of the `thiserror` crate
@@ -55298,7 +55358,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 
 
 ====================================================
-tinyvec 1.8.0
+tinyvec 1.8.1
 https://github.com/Lokathor/tinyvec
 by Lokathor <zefria@gmail.com>
 `tinyvec` provides 100% safe vec-like data structures.
@@ -55797,7 +55857,7 @@ SOFTWARE.
 
 
 ====================================================
-tokio 1.42.0
+tokio 1.43.0
 https://tokio.rs
 by Tokio Contributors <team@tokio.rs>
 An event-driven, non-blocking I/O platform for writing asynchronous I/O
@@ -55831,7 +55891,7 @@ SOFTWARE.
 
 
 ====================================================
-tokio-macros 2.4.0
+tokio-macros 2.5.0
 https://tokio.rs
 by Tokio Contributors <team@tokio.rs>
 Tokio's proc macros.
@@ -56847,6 +56907,81 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+====================================================
+tower 0.5.2
+https://github.com/tower-rs/tower
+by Tower Maintainers <team@tower-rs.com>
+Tower is a library of modular and reusable components for building robust
+clients and servers.
+
+License: MIT
+----------------------------------------------------
+LICENSE:
+
+Copyright (c) 2019 Tower Contributors
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+====================================================
+tower-layer 0.3.3
+https://github.com/tower-rs/tower
+by Tower Maintainers <team@tower-rs.com>
+Decorates a `Service` to allow easy composition between `Service`s.
+
+License: MIT
+----------------------------------------------------
+LICENSE:
+
+Copyright (c) 2019 Tower Contributors
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
@@ -59607,7 +59742,7 @@ SOFTWARE.
 
 
 ====================================================
-unicode-ident 1.0.14
+unicode-ident 1.0.16
 https://github.com/dtolnay/unicode-ident
 by David Tolnay <dtolnay@gmail.com>
 Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31
@@ -65129,7 +65264,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen 0.2.99
+wasm-bindgen 0.2.100
 https://rustwasm.github.io/
 by The wasm-bindgen Developers
 Easy support for interacting between JS and Rust.
@@ -65371,7 +65506,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-backend 0.2.99
+wasm-bindgen-backend 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Backend code generation of the wasm-bindgen tool
@@ -65613,7 +65748,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-futures 0.4.49
+wasm-bindgen-futures 0.4.50
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Bridging the gap between Rust Futures and JavaScript Promises
@@ -65854,7 +65989,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-macro 0.2.99
+wasm-bindgen-macro 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Definition of the `#[wasm_bindgen]` attribute, an internal dependency
@@ -66096,7 +66231,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-macro-support 0.2.99
+wasm-bindgen-macro-support 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 The part of the implementation of the `#[wasm_bindgen]` attribute that is not in the shared backend crate
@@ -66338,7 +66473,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-shared 0.2.99
+wasm-bindgen-shared 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Shared support between wasm-bindgen and wasm-bindgen cli, an internal
@@ -66834,7 +66969,7 @@ Software.
 
 
 ====================================================
-web-sys 0.3.76
+web-sys 0.3.77
 https://rustwasm.github.io/wasm-bindgen/web-sys/index.html
 by The wasm-bindgen Developers
 Bindings for all Web APIs, a procedurally generated crate from WebIDL
@@ -67582,7 +67717,7 @@ SOFTWARE.
 
 
 ====================================================
-wide 0.7.30
+wide 0.7.32
 https://github.com/Lokathor/wide
 by Lokathor <zefria@gmail.com>
 A crate to help you go wide.
@@ -70989,7 +71124,7 @@ license-mit:
 
 
 ====================================================
-winnow 0.6.20
+winnow 0.6.25
 https://github.com/winnow-rs/winnow
 by 
 A byte-oriented, zero-copy, parser combinators library
@@ -71588,7 +71723,7 @@ SOFTWARE.
 
 
 ====================================================
-xattr 1.3.1
+xattr 1.4.0
 https://github.com/Stebalien/xattr
 by Steven Allen <steven@stebalien.com>
 unix extended filesystem attributes
