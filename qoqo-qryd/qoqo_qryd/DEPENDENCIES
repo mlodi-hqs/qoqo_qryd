@@ -594,7 +594,7 @@ SOFTWARE.
 
 
 ====================================================
-anyhow 1.0.94
+anyhow 1.0.97
 https://github.com/dtolnay/anyhow
 by David Tolnay <dtolnay@gmail.com>
 Flexible concrete Error type built on std::error::Error
@@ -1592,7 +1592,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ====================================================
-async-trait 0.1.83
+async-trait 0.1.87
 https://github.com/dtolnay/async-trait
 by David Tolnay <dtolnay@gmail.com>
 Type erasure for async trait methods
@@ -2371,7 +2371,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ====================================================
-avif-serialize 0.8.2
+avif-serialize 0.8.3
 https://lib.rs/avif-serialize
 by Kornel Lesiński <kornel@geekhood.net>
 Minimal writer for AVIF header structure (MPEG/HEIF/MIAF/ISO-BMFF)
@@ -4600,7 +4600,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-bitflags 2.6.0
+bitflags 2.9.0
 https://github.com/bitflags/bitflags
 by The Rust Project Developers
 A macro to generate structures which behave like bitflags.
@@ -5115,7 +5115,7 @@ SOFTWARE.
 
 
 ====================================================
-built 0.7.5
+built 0.7.7
 https://github.com/lukaslueg/built
 by Lukas Lueg <lukas.lueg@gmail.com>
 Provides a crate with information from the time it was built.
@@ -5147,7 +5147,7 @@ SOFTWARE.
 
 
 ====================================================
-bumpalo 3.16.0
+bumpalo 3.17.0
 https://github.com/fitzgen/bumpalo
 by Nick Fitzgerald <fitzgen@gmail.com>
 A fast bump allocation arena for Rust.
@@ -5629,7 +5629,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-bytemuck 1.20.0
+bytemuck 1.22.0
 https://github.com/Lokathor/bytemuck
 by Lokathor <zefria@gmail.com>
 A crate for mucking around with piles of bytes.
@@ -5856,7 +5856,7 @@ THE SOFTWARE.
 
 
 ====================================================
-bytes 1.9.0
+bytes 1.10.0
 https://github.com/tokio-rs/bytes
 by Carl Lerche <me@carllerche.com>, Sean McArthur <sean@seanmonstar.com>
 Types and traits for working with bytes
@@ -5892,7 +5892,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-cc 1.2.4
+cc 1.2.16
 https://github.com/rust-lang/cc-rs
 by Alex Crichton <alex@alexcrichton.com>
 A build-time dependency for Cargo build scripts to assist in invoking the native
@@ -8111,11 +8111,35 @@ Procedural macros for comemo.
 License: MIT OR Apache-2.0
 
 ====================================================
-core_maths 0.1.0
+core_maths 0.1.1
 https://github.com/robertbastian/core_maths
 by Robert Bastian <me@robertbastian.dev
 Extension trait for full float functionality in `#[no_std]` backed by `libm`.
 License: MIT
+----------------------------------------------------
+LICENSE:
+
+MIT License
+
+Copyright (c) 2024 Robert Bastian
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ====================================================
 crc32fast 1.4.2
@@ -9085,10 +9109,36 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-crunchy 0.2.2
-by Vurich <jackefransham@hotmail.co.uk>
+crunchy 0.2.3
+https://github.com/eira-fransham/crunchy
+by Eira Fransham <jackefransham@gmail.com>
 Crunchy unroller: deterministically unroll constant loops
 License: MIT
+----------------------------------------------------
+LICENSE:
+
+The MIT License (MIT)
+
+Copyright 2017-2023 Eira Fransham.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 ====================================================
 csv 1.3.1
@@ -9158,7 +9208,7 @@ You may use this code under the terms of either license.
 
 
 ====================================================
-csv-core 0.1.11
+csv-core 0.1.12
 https://github.com/BurntSushi/rust-csv
 by Andrew Gallant <jamslam@gmail.com>
 Bare bones CSV parsing with no_std support.
@@ -10661,10 +10711,10 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-dyn-clone 1.0.17
+dyn-clone 1.0.18
 https://github.com/dtolnay/dyn-clone
 by David Tolnay <dtolnay@gmail.com>
-Clone trait that is object-safe
+Clone trait that is dyn-compatible
 License: MIT OR Apache-2.0
 ----------------------------------------------------
 LICENSE-APACHE:
@@ -11085,7 +11135,7 @@ SOFTWARE.
 
 
 ====================================================
-either 1.13.0
+either 1.14.0
 https://github.com/rayon-rs/either
 by bluss
 The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.
@@ -11873,8 +11923,8 @@ SOFTWARE.
 
 
 ====================================================
-equivalent 1.0.1
-https://github.com/cuviper/equivalent
+equivalent 1.0.2
+https://github.com/indexmap-rs/equivalent
 by 
 Traits for key comparison in maps.
 License: Apache-2.0 OR MIT
@@ -13495,7 +13545,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-flate2 1.0.35
+flate2 1.1.0
 https://github.com/rust-lang/flate2-rs
 by Alex Crichton <alex@alexcrichton.com>, Josh Triplett <josh@joshtriplett.org>
 DEFLATE compression and decompression exposed as Read/BufRead/Write streams.
@@ -13711,7 +13761,7 @@ limitations under the License.
 ----------------------------------------------------
 LICENSE-MIT:
 
-Copyright (c) 2014 Alex Crichton
+Copyright (c) 2014-2025 Alex Crichton
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -17467,7 +17517,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-h2 0.4.7
+h2 0.4.8
 https://github.com/hyperium/h2
 by Carl Lerche <me@carllerche.com>, Sean McArthur <sean@seanmonstar.com>
 An HTTP/2 client and server
@@ -19277,7 +19327,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-httparse 1.9.5
+httparse 1.10.0
 https://github.com/seanmonstar/httparse
 by Sean McArthur <sean@seanmonstar.com>
 A tiny, safe, speedy, zero-copy HTTP/1.x parser.
@@ -19490,7 +19540,7 @@ limitations under the License.
 ----------------------------------------------------
 LICENSE-MIT:
 
-Copyright (c) 2015-2024 Sean McArthur
+Copyright (c) 2015-2025 Sean McArthur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19748,7 +19798,7 @@ THE SOFTWARE.
 
 
 ====================================================
-hyper 1.5.2
+hyper 1.6.0
 https://hyper.rs
 by Sean McArthur <sean@seanmonstar.com>
 A protective and efficient HTTP library for all.
@@ -19756,7 +19806,7 @@ License: MIT
 ----------------------------------------------------
 LICENSE:
 
-Copyright (c) 2014-2021 Sean McArthur
+Copyright (c) 2014-2025 Sean McArthur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19778,7 +19828,7 @@ THE SOFTWARE.
 
 
 ====================================================
-hyper-rustls 0.27.4
+hyper-rustls 0.27.5
 https://github.com/rustls/hyper-rustls
 by 
 Rustls+hyper integration for pure rust HTTPS
@@ -22247,7 +22297,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-image-webp 0.2.0
+image-webp 0.2.1
 https://github.com/image-rs/image-webp
 by 
 WebP encoding and decoding in pure Rust
@@ -22833,7 +22883,7 @@ express Statement of Purpose.
 
 
 ====================================================
-indexmap 2.7.0
+indexmap 2.7.1
 https://github.com/indexmap-rs/indexmap
 by 
 A hash table with consistent order and fast iteration.
@@ -23551,7 +23601,7 @@ SOFTWARE.
 
 
 ====================================================
-inventory 0.3.15
+inventory 0.3.19
 https://github.com/dtolnay/inventory
 by David Tolnay <dtolnay@gmail.com>
 Typed distributed plugin registration
@@ -23765,7 +23815,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-ipnet 2.10.1
+ipnet 2.11.0
 https://github.com/krisprice/ipnet
 by Kris Price <kris@krisprice.nz>
 Provides types and useful methods for working with IPv4 and IPv6 network addresses, commonly called IP prefixes. The new `IpNet`, `Ipv4Net`, and `Ipv6Net` types build on the existing `IpAddr`, `Ipv4Addr`, and `Ipv6Addr` types already provided in Rust's standard library and align to their design to stay consistent. The module also provides useful traits that extend `Ipv4Addr` and `Ipv6Addr` with methods for `Add`, `Sub`, `BitAnd`, and `BitOr` operations. The module only uses stable feature so it is guaranteed to compile using the stable toolchain.
@@ -25404,7 +25454,7 @@ SOFTWARE.
 
 
 ====================================================
-js-sys 0.3.76
+js-sys 0.3.77
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Bindings for all JS global objects and functions in all JS environments like
@@ -25933,7 +25983,7 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ====================================================
-libc 0.2.168
+libc 0.2.170
 https://github.com/rust-lang/libc
 by The Rust Project Developers
 Raw FFI bindings to platform libraries like libc.
@@ -26150,11 +26200,11 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-libfuzzer-sys 0.4.8
+libfuzzer-sys 0.4.9
 https://github.com/rust-fuzz/libfuzzer
 by The rust-fuzz Project Developers
 A wrapper around LLVM's libFuzzer runtime.
-License: MIT/Apache-2.0/NCSA
+License: (MIT OR Apache-2.0) AND NCSA
 ----------------------------------------------------
 LICENSE-APACHE:
 
@@ -26933,7 +26983,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-linux-raw-sys 0.4.14
+linux-raw-sys 0.4.15
 https://github.com/sunfishcode/linux-raw-sys
 by Dan Gohman <dev@sunfishcode.online>
 Generated bindings for Linux's userspace API
@@ -27434,7 +27484,7 @@ SOFTWARE.
 
 
 ====================================================
-litemap 0.7.4
+litemap 0.7.5
 https://github.com/unicode-org/icu4x
 by The ICU4X Project Developers
 A key-value Map implementation based on a flat, sorted Vec.
@@ -27732,7 +27782,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-log 0.4.22
+log 0.4.26
 https://github.com/rust-lang/log
 by The Rust Project Developers
 A lightweight logging facade for Rust
@@ -28883,9 +28933,9 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-miniz_oxide 0.8.2
+miniz_oxide 0.8.5
 https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
-by Frommi <daniil.liferenko@gmail.com>, oyvindln <oyvindln@users.noreply.github.com>
+by Frommi <daniil.liferenko@gmail.com>, oyvindln <oyvindln@users.noreply.github.com>, Rich Geldreich richgel99@gmail.com
 DEFLATE compression and decompression library rewritten in Rust based on miniz
 License: MIT OR Zlib OR Apache-2.0
 ----------------------------------------------------
@@ -29074,7 +29124,11 @@ LICENSE:
 
 MIT License
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29097,7 +29151,10 @@ SOFTWARE.
 ----------------------------------------------------
 LICENSE-ZLIB.md:
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2020 Frommi
+Copyright (c) 2017-2024 oyvindln
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
@@ -29114,7 +29171,10 @@ LICENSE-MIT.md:
 
 MIT License
 
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31702,7 +31762,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ====================================================
-object 0.36.5
+object 0.36.7
 https://github.com/gimli-rs/object
 by 
 A unified interface for reading and writing object file formats.
@@ -31943,7 +32003,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-once_cell 1.20.2
+once_cell 1.20.3
 https://github.com/matklad/once_cell
 by Aleksey Kladov <aleksey.kladov@gmail.com>
 Single assignment cells and lazy values.
@@ -33836,7 +33896,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf 0.11.2
+phf 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Runtime support for perfect hash function data structures
@@ -33867,7 +33927,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf_generator 0.11.2
+phf_generator 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 PHF generation logic
@@ -33898,14 +33958,38 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-phf_macros 0.11.2
+phf_macros 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Macros to generate types in the phf crate
 License: MIT
+----------------------------------------------------
+LICENSE:
+
+The MIT License (MIT)
+
+Copyright (c) 2014-2022 Steven Fackler, Yuki Okushi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ====================================================
-phf_shared 0.11.2
+phf_shared 0.11.3
 https://github.com/rust-phf/rust-phf
 by Steven Fackler <sfackler@gmail.com>
 Support code shared by PHF libraries
@@ -33967,7 +34051,7 @@ THE SOFTWARE.
 
 
 ====================================================
-pin-project-lite 0.2.15
+pin-project-lite 0.2.16
 https://github.com/taiki-e/pin-project-lite
 by 
 A lightweight version of pin-project written with declarative macros.
@@ -34736,7 +34820,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
 ====================================================
-pkg-config 0.3.31
+pkg-config 0.3.32
 https://github.com/rust-lang/pkg-config-rs
 by Alex Crichton <alex@alexcrichton.com>
 A library to run the pkg-config system tool at build time in order to be used in
@@ -34986,7 +35070,7 @@ A rusty plist parser. Supports Serde serialization.
 License: MIT
 
 ====================================================
-png 0.17.15
+png 0.17.16
 https://github.com/image-rs/image-png
 by The image-rs Developers
 PNG decoding and encoding library in pure Rust
@@ -35227,7 +35311,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-portable-atomic 1.10.0
+portable-atomic 1.11.0
 https://github.com/taiki-e/portable-atomic
 by 
 Portable atomic types including support for 128-bit atomics, atomic float, etc.
@@ -35930,7 +36014,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-proc-macro2 1.0.92
+proc-macro2 1.0.94
 https://github.com/dtolnay/proc-macro2
 by David Tolnay <dtolnay@gmail.com>, Alex Crichton <alex@alexcrichton.com>
 A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.
@@ -36158,7 +36242,7 @@ This crate provides a very thin abstraction over other profiler crates.
 License: MIT OR Apache-2.0
 
 ====================================================
-psm 0.1.24
+psm 0.1.25
 https://github.com/rust-lang/stacker/
 by Simonas Kazlauskas <psm@kazlauskas.me>
 Portable Stack Manipulation: stack manipulation and introspection routines
@@ -39868,7 +39952,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ====================================================
-quinn-udp 0.5.9
+quinn-udp 0.5.10
 https://github.com/quinn-rs/quinn
 by 
 UDP sockets with ECN information for the QUIC transport protocol
@@ -40091,7 +40175,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ====================================================
-quote 1.0.37
+quote 1.0.39
 https://github.com/dtolnay/quote
 by David Tolnay <dtolnay@gmail.com>
 Quasi-quoting macro quote!(...)
@@ -42058,7 +42142,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-redox_syscall 0.5.8
+redox_syscall 0.5.9
 https://gitlab.redox-os.org/redox-os/syscall
 by Jeremy Soller <jackpot51@gmail.com>
 A Rust library to access raw Redox system calls
@@ -42816,7 +42900,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-reqwest 0.12.9
+reqwest 0.12.12
 https://github.com/seanmonstar/reqwest
 by Sean McArthur <sean@seanmonstar.com>
 higher level HTTP client library
@@ -43469,10 +43553,317 @@ SOFTWARE.
 
 
 ====================================================
-ring 0.17.8
-https://github.com/briansmith/ring
-by Brian Smith <brian@briansmith.org>
-Safe, fast, small crypto using Rust.
+ring 0.17.11
+https://github.com/ctz/ring
+by 
+An experiment.
+License: Apache-2.0 AND ISC
+----------------------------------------------------
+LICENSE-other-bits:
+
+Copyright 2015-2025 Brian Smith.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+----------------------------------------------------
+LICENSE-BoringSSL:
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+Licenses for support code
+-------------------------
+
+Parts of the TLS test suite are under the Go license. This code is not included
+in BoringSSL (i.e. libcrypto and libssl) when compiled, however, so
+distributing code linked against BoringSSL does not trigger this license:
+
+Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+BoringSSL uses the Chromium test infrastructure to run a continuous build,
+trybots etc. The scripts which manage this, and the script for generating build
+metadata, are under the Chromium license. Distributing code linked against
+BoringSSL does not trigger this license.
+
+Copyright 2015 The Chromium Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----------------------------------------------------
+LICENSE:
+
+*ring* uses an "ISC" license, like BoringSSL used to use, for new code
+files. See LICENSE-other-bits for the text of that license.
+
+See LICENSE-BoringSSL for code that was sourced from BoringSSL under the
+Apache 2.0 license. Some code that was sourced from BoringSSL under the ISC
+license. In each case, the license info is at the top of the file.
+
+See src/polyfill/once_cell/LICENSE-APACHE and src/polyfill/once_cell/LICENSE-MIT
+for the license to code that was sourced from the once_cell project.
+
 
 ====================================================
 roqollage 0.4.3
@@ -45464,7 +45855,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-rustc-hash 2.1.0
+rustc-hash 2.1.1
 https://github.com/rust-lang/rustc-hash
 by The Rust Project Developers
 A speedy, non-cryptographic hashing algorithm used by rustc
@@ -45676,7 +46067,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 ====================================================
-rustix 0.38.42
+rustix 0.38.44
 https://github.com/bytecodealliance/rustix
 by Dan Gohman <dev@sunfishcode.online>, Jakub Konka <kubkon@jakubkonka.com>
 Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls
@@ -46139,7 +46530,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-rustls 0.23.20
+rustls 0.23.23
 https://github.com/rustls/rustls
 by 
 Rustls is a modern TLS library written in Rust.
@@ -46673,7 +47064,7 @@ of these licenses, at your option.
 
 
 ====================================================
-rustls-pki-types 1.10.1
+rustls-pki-types 1.11.0
 https://github.com/rustls/pki-types
 by 
 Shared types for the rustls PKI ecosystem
@@ -46944,7 +47335,7 @@ third-party/chromium/LICENSE.
 
 
 ====================================================
-rustversion 1.0.18
+rustversion 1.0.19
 https://github.com/dtolnay/rustversion
 by David Tolnay <dtolnay@gmail.com>
 Conditional compilation according to rustc compiler version
@@ -47191,7 +47582,7 @@ SOFTWARE.
 
 
 ====================================================
-ryu 1.0.18
+ryu 1.0.19
 https://github.com/dtolnay/ryu
 by David Tolnay <dtolnay@gmail.com>
 Fast floating point to string conversion
@@ -47405,7 +47796,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-safe_arch 0.7.2
+safe_arch 0.7.4
 https://github.com/Lokathor/safe_arch
 by Lokathor <zefria@gmail.com>
 Crate that exposes `core::arch` safely via `#[cfg()]`.
@@ -47573,7 +47964,7 @@ You may use this code under the terms of either license.
 
 
 ====================================================
-schemars 0.8.21
+schemars 0.8.22
 https://graham.cool/schemars/
 by Graham Esau <gesau@hotmail.co.uk>
 Generate JSON Schemas from Rust code
@@ -47605,7 +47996,7 @@ SOFTWARE.
 
 
 ====================================================
-schemars_derive 0.8.21
+schemars_derive 0.8.22
 https://graham.cool/schemars/
 by Graham Esau <gesau@hotmail.co.uk>
 Macros for #[derive(JsonSchema)], for use with schemars
@@ -47883,7 +48274,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde 1.0.216
+serde 1.0.218
 https://serde.rs
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 A generic serialization/deserialization framework
@@ -48097,7 +48488,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde_derive 1.0.216
+serde_derive 1.0.218
 https://serde.rs
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 Macros 1.1 implementation of #[derive(Serialize, Deserialize)]
@@ -48525,7 +48916,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde_json 1.0.133
+serde_json 1.0.140
 https://github.com/serde-rs/json
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 A JSON serialization file format
@@ -49919,11 +50310,11 @@ Helpers to write more compact simd code
 License: MIT
 
 ====================================================
-simplecss 0.2.1
-https://github.com/RazrFalcon/simplecss
-by Reizner Evgeniy <razrfalcon@gmail.com>
+simplecss 0.2.2
+https://github.com/linebender/simplecss
+by 
 A simple CSS 2 parser and selector.
-License: MIT/Apache-2.0
+License: Apache-2.0 OR MIT
 ----------------------------------------------------
 LICENSE-APACHE:
 
@@ -50258,7 +50649,7 @@ the following restrictions:
 
 
 ====================================================
-smallvec 1.13.2
+smallvec 1.14.0
 https://github.com/servo/rust-smallvec
 by The Servo Project Developers
 'Small vector' optimization: store up to a small number of items on the stack
@@ -51014,7 +51405,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 ====================================================
-stacker 0.1.17
+stacker 0.1.19
 https://github.com/rust-lang/stacker
 by Alex Crichton <alex@alexcrichton.com>, Simonas Kazlauskas <stacker@kazlauskas.me>
 A stack growth library useful when implementing deeply recursive algorithms that
@@ -52266,7 +52657,7 @@ THE SOFTWARE.
 
 
 ====================================================
-syn 2.0.90
+syn 2.0.99
 https://github.com/dtolnay/syn
 by David Tolnay <dtolnay@gmail.com>
 Parser for Rust source code
@@ -52989,7 +53380,7 @@ SOFTWARE.
 
 
 ====================================================
-tar 0.4.43
+tar 0.4.44
 https://github.com/alexcrichton/tar-rs
 by Alex Crichton <alex@alexcrichton.com>
 A Rust implementation of a TAR file reader and writer. This library does not
@@ -53775,7 +54166,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-thiserror 2.0.8
+thiserror 2.0.12
 https://github.com/dtolnay/thiserror
 by David Tolnay <dtolnay@gmail.com>
 derive(Error)
@@ -54203,7 +54594,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-thiserror-impl 2.0.8
+thiserror-impl 2.0.12
 https://github.com/dtolnay/thiserror
 by David Tolnay <dtolnay@gmail.com>
 Implementation detail of the `thiserror` crate
@@ -55298,7 +55689,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 
 
 ====================================================
-tinyvec 1.8.0
+tinyvec 1.9.0
 https://github.com/Lokathor/tinyvec
 by Lokathor <zefria@gmail.com>
 `tinyvec` provides 100% safe vec-like data structures.
@@ -55797,7 +56188,7 @@ SOFTWARE.
 
 
 ====================================================
-tokio 1.42.0
+tokio 1.43.0
 https://tokio.rs
 by Tokio Contributors <team@tokio.rs>
 An event-driven, non-blocking I/O platform for writing asynchronous I/O
@@ -55831,7 +56222,7 @@ SOFTWARE.
 
 
 ====================================================
-tokio-macros 2.4.0
+tokio-macros 2.5.0
 https://tokio.rs
 by Tokio Contributors <team@tokio.rs>
 Tokio's proc macros.
@@ -55865,7 +56256,7 @@ SOFTWARE.
 
 
 ====================================================
-tokio-rustls 0.26.1
+tokio-rustls 0.26.2
 https://github.com/rustls/tokio-rustls
 by 
 Asynchronous TLS/SSL streams for Tokio using Rustls.
@@ -56139,7 +56530,7 @@ SOFTWARE.
 
 
 ====================================================
-toml 0.8.19
+toml 0.8.20
 https://github.com/toml-rs/toml
 by Alex Crichton <alex@alexcrichton.com>
 A native Rust encoder and decoder of TOML-formatted files and streams. Provides
@@ -56614,7 +57005,7 @@ SOFTWARE.
 
 
 ====================================================
-toml_edit 0.22.22
+toml_edit 0.22.24
 https://github.com/toml-rs/toml
 by Andronik Ordian <write@reusable.software>, Ed Page <eopage@gmail.com>
 Yet another format-preserving TOML parser.
@@ -56847,6 +57238,81 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+====================================================
+tower 0.5.2
+https://github.com/tower-rs/tower
+by Tower Maintainers <team@tower-rs.com>
+Tower is a library of modular and reusable components for building robust
+clients and servers.
+
+License: MIT
+----------------------------------------------------
+LICENSE:
+
+Copyright (c) 2019 Tower Contributors
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+====================================================
+tower-layer 0.3.3
+https://github.com/tower-rs/tower
+by Tower Maintainers <team@tower-rs.com>
+Decorates a `Service` to allow easy composition between `Service`s.
+
+License: MIT
+----------------------------------------------------
+LICENSE:
+
+Copyright (c) 2019 Tower Contributors
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
@@ -57497,7 +57963,7 @@ SOFTWARE.
 
 
 ====================================================
-typenum 1.17.0
+typenum 1.18.0
 https://github.com/paholg/typenum
 by Paho Lurie-Gregg <paho@paholg.com>, Andre Bogus <bogusandre@gmail.com>
 Typenum is a Rust library for type-level numbers evaluated at
@@ -59607,7 +60073,7 @@ SOFTWARE.
 
 
 ====================================================
-unicode-ident 1.0.14
+unicode-ident 1.0.17
 https://github.com/dtolnay/unicode-ident
 by David Tolnay <dtolnay@gmail.com>
 Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31
@@ -65129,7 +65595,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen 0.2.99
+wasm-bindgen 0.2.100
 https://rustwasm.github.io/
 by The wasm-bindgen Developers
 Easy support for interacting between JS and Rust.
@@ -65371,7 +65837,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-backend 0.2.99
+wasm-bindgen-backend 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Backend code generation of the wasm-bindgen tool
@@ -65613,7 +66079,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-futures 0.4.49
+wasm-bindgen-futures 0.4.50
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Bridging the gap between Rust Futures and JavaScript Promises
@@ -65854,7 +66320,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-macro 0.2.99
+wasm-bindgen-macro 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Definition of the `#[wasm_bindgen]` attribute, an internal dependency
@@ -66096,7 +66562,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-macro-support 0.2.99
+wasm-bindgen-macro-support 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 The part of the implementation of the `#[wasm_bindgen]` attribute that is not in the shared backend crate
@@ -66338,7 +66804,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wasm-bindgen-shared 0.2.99
+wasm-bindgen-shared 0.2.100
 https://rustwasm.github.io/wasm-bindgen/
 by The wasm-bindgen Developers
 Shared support between wasm-bindgen and wasm-bindgen cli, an internal
@@ -66834,7 +67300,7 @@ Software.
 
 
 ====================================================
-web-sys 0.3.76
+web-sys 0.3.77
 https://rustwasm.github.io/wasm-bindgen/web-sys/index.html
 by The wasm-bindgen Developers
 Bindings for all Web APIs, a procedurally generated crate from WebIDL
@@ -67313,7 +67779,7 @@ SOFTWARE.
 
 
 ====================================================
-webpki-roots 0.26.7
+webpki-roots 0.26.8
 https://github.com/rustls/webpki-roots
 by 
 Mozilla's CA root certificates for use with webpki
@@ -67582,7 +68048,7 @@ SOFTWARE.
 
 
 ====================================================
-wide 0.7.30
+wide 0.7.32
 https://github.com/Lokathor/wide
 by Lokathor <zefria@gmail.com>
 A crate to help you go wide.
@@ -70989,7 +71455,7 @@ license-mit:
 
 
 ====================================================
-winnow 0.6.20
+winnow 0.7.3
 https://github.com/winnow-rs/winnow
 by 
 A byte-oriented, zero-copy, parser combinators library
@@ -71018,7 +71484,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-wiremock 0.6.2
+wiremock 0.6.3
 https://github.com/LukeMathWalker/wiremock-rs
 by Luca Palmieri <rust@lpalmieri.com>
 HTTP mocking to test Rust applications.
@@ -71588,7 +72054,7 @@ SOFTWARE.
 
 
 ====================================================
-xattr 1.3.1
+xattr 1.4.0
 https://github.com/Stebalien/xattr
 by Steven Allen <steven@stebalien.com>
 unix extended filesystem attributes
@@ -72754,7 +73220,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-zerofrom 0.1.5
+zerofrom 0.1.6
 https://github.com/unicode-org/icu4x
 by Manish Goregaokar <manishsmail@gmail.com>
 ZeroFrom trait for constructing
@@ -72811,7 +73277,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 
 
 ====================================================
-zerofrom-derive 0.1.5
+zerofrom-derive 0.1.6
 https://github.com/unicode-org/icu4x
 by Manish Goregaokar <manishsmail@gmail.com>
 Custom derive for the zerofrom crate
