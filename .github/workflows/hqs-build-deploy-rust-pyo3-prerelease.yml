@@ -52,7 +52,6 @@ jobs:
       deploy: true
       # Whether to build for aarch64. Can fail if there are C/C++ dependencies
       build_for_arm: false
-      python_3_13: false
     secrets: inherit
   
   build_maturin_builds_macos:
@@ -62,7 +61,6 @@ jobs:
     with: 
       py_interface_folder: "qoqo-qryd"
       deploy: true
-      python_3_13: false
     secrets: inherit
 
   build_maturin_builds_windows:
@@ -72,5 +70,4 @@ jobs:
     with: 
       py_interface_folder: "qoqo-qryd"
       deploy: true
-      python_3_13: false
     secrets: inherit
